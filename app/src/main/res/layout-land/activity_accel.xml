@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_blick"
+    tools:context=".AccelActivity">
+
+    <TextView
+        android:id="@+id/textViewA"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button"
+        android:text="XY"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+
+
+    <TextView
+        android:id="@+id/textViewA2"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button"
+        android:text="ZX"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+
+
+    <TextView
+        android:id="@+id/textViewA3"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button"
+        android:text="ZY"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <Button
+    android:id="@+id/button"
+    android:layout_width="150dp"
+    android:layout_height="45dp"
+    android:layout_marginLeft="150dp"
+    android:layout_marginTop="270dp"
+    android:layout_marginRight="50dp"
+    android:background="@drawable/button_white"
+    android:textAlignment="center"
+    android:text="Назад" />
+</android.support.design.widget.CoordinatorLayout>
