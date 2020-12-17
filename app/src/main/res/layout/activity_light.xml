@@ -28,5 +28,5 @@
         android:layout_marginRight="50dp"
         android:background="@drawable/button_white"
         android:textAlignment="center"
-        android:text="Назад" />
+        android:text="назад" />
 </android.support.design.widget.CoordinatorLayout>
